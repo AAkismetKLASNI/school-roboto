@@ -8,6 +8,8 @@ const routes = require('./routes');
 
 const app = express();
 
+app(express.static('../client/dist'));
+
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
