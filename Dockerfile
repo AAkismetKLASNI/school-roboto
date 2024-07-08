@@ -6,7 +6,7 @@ COPY . .
 
 WORKDIR /usr/src/app/client
 RUN npm i
-RUN npm run builed
+RUN npm run build
 
 WORKDIR /usr/src/app/server
 RUN npm i
