@@ -1,0 +1,45 @@
+.personalPanel {
+	padding: 25px;
+	border-radius: 22px;
+	height: 345px;
+	width: 340px;
+	background-color: #212121;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.personalPanel div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.personalPanel div a {
+	text-decoration: underline;
+}
+
+.btnHelper,
+.btnLogout {
+	width: 185px;
+	height: 50px;
+	background-color: #ebebeb;
+	color: #000;
+	border-radius: 10px;
+}
+
+.btnLogout {
+	background-color: #ff5252;
+	color: #ebebeb;
+}
+
+.btnLogout:hover {
+	background-color: #ff2e2e;
+}
+
+.btnHelper:hover {
+	background-color: #000;
+	color: #ebebeb;
+}

@@ -1,0 +1,33 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+
+.firstSection {
+	position: relative;
+}
+
+.firstSection img {
+	width: 100%;
+}
+
+.firstSectionInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 920px;
+	top: 95px;
+	left: 145px;
+	position: absolute;
+}
+
+.secondSection {
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+	padding: 45px 65px;
+	height: 370px;
+	border-radius: 40px;
+	background-color: #303030;
+}

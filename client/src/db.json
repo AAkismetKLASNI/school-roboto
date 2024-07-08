@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "b8b8",
+      "email": "forevernoox@gmail.com",
+      "password": "qwe123",
+      "telephone": null,
+      "firstname": null,
+      "lastname": null,
+      "gender": "men",
+      "role_id": "0"
+    },
+    {
+      "id": "500d",
+      "email": "ffsadf@gmail.com",
+      "password": "erer2323",
+      "telephone": null,
+      "firstname": null,
+      "lastname": null,
+      "gender": "men",
+      "role_id": "0"
+    }
+  ],
+  "roles": [
+    {
+      "id": "0",
+      "name": "student"
+    },
+    {
+      "id": "1",
+      "name": "guest"
+    }
+  ],
+  "courses": [
+    {
+      "id": "001",
+      "price": "2000",
+      "for_what": "Робототехника",
+      "level": "Новичок",
+      "mode": "ОЧНО",
+      "features": [
+        "группа 10-15 человек",
+        "2 специалиста в группе",
+        "сертификат школы",
+        "3 занятия в неделю"
+      ]
+    },
+    {
+      "id": "002",
+      "price": "2700",
+      "for_what": "Робототехника",
+      "level": "Продвинутый",
+      "mode": "ОЧНО",
+      "features": [
+        "группа 8-12 человек",
+        "2 специалиста в группе",
+        "сертификат школы",
+        "3-4 занятия в неделю"
+      ]
+    },
+    {
+      "id": "003",
+      "price": "2200",
+      "for_what": "Робототехника",
+      "level": "Новичок",
+      "mode": "ОЧНО / ЗАОЧНО ",
+      "features": [
+        "группа 10-15 человек",
+        "2 специалиста в группе",
+        "сертификат школы",
+        "3 занятия в неделю"
+      ]
+    }
+  ],
+  "posts": [],
+  "comments": [],
+  "sessions": [
+    {
+      "id": "997c",
+      "hash": "0.19420753770119736358878981263842433691024780273438",
+      "user": {
+        "id": "b8b8",
+        "email": "forevernoox@gmail.com",
+        "password": "qwe123",
+        "telephone": null,
+        "firstname": null,
+        "lastname": null,
+        "gender": "men",
+        "roleId": "0"
+      }
+    },
+    {
+      "id": "8356",
+      "hash": "0.40521812739377893741732350463280454277992248535156",
+      "user": {
+        "id": "b8b8",
+        "email": "forevernoox@gmail.com",
+        "password": "qwe123",
+        "telephone": null,
+        "firstname": null,
+        "lastname": null,
+        "gender": "men",
+        "roleId": "0"
+      }
+    },
+    {
+      "id": "a8f6",
+      "hash": "0.74927938753728695608913312753429636359214782714844",
+      "user": {
+        "id": "500d",
+        "email": "ffsadf@gmail.com",
+        "password": "erer2323",
+        "telephone": null,
+        "firstname": null,
+        "lastname": null,
+        "gender": "men",
+        "roleId": "0"
+      }
+    }
+  ]
+}

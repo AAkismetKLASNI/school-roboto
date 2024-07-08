@@ -1,0 +1,13 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 60px;
+}
+
+.postContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	justify-content: space-between;
+}

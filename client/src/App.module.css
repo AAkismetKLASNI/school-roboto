@@ -1,0 +1,11 @@
+.contentForLanding {
+	justify-content: space-between;
+	height: 100vh;
+}
+
+.contentForPage,
+.contentForLanding {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}

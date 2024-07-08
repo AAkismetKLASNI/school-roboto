@@ -1,0 +1,54 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leftPart {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 55px;
+}
+
+.rigthPartItem {
+	padding: 30px 40px;
+	width: 360px;
+	height: 230px;
+	background-color: #d9d9d9;
+	border-radius: 30px;
+}
+
+.rigthPartItem * {
+	color: #000;
+}
+
+.rigthPart {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.rigthPartContent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rigthPartItem {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.rigthPartItem span {
+	font-size: 36px;
+}
+
+.rigthPartItemContent {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.rigthPartItemContent span {
+	font-size: 40px;
+}

@@ -1,0 +1,22 @@
+.content {
+	width: 405px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	height: calc(100vh - 251px);
+}
+
+.socialNetwork {
+	display: flex;
+	gap: 20px;
+}
+
+.socialNetwork img {
+	cursor: pointer;
+}
+
+.robotBanner {
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}

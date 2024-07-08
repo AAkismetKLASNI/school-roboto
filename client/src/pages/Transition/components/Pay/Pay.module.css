@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.toggleOptions {
+	display: flex;
+}
+
+.goldText {
+	color: #ffc23e;
+}
+
+.sectionPay {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}

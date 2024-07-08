@@ -1,0 +1,22 @@
+.H1,
+.H1 * {
+	font-size: 54px;
+}
+
+.HCenter {
+	text-align: center;
+}
+
+.HBlue {
+	color: #39cadf;
+}
+
+.H2,
+.H2 * {
+	font-size: 36px;
+}
+
+.H3,
+.H3 * {
+	font-size: 32px;
+}

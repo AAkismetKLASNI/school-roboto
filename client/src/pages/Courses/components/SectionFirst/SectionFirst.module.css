@@ -1,0 +1,22 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 88px;
+}
+
+.filterOperation {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.filterOperation div {
+	display: flex;
+	gap: 20px;
+}
+
+.coursesContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}

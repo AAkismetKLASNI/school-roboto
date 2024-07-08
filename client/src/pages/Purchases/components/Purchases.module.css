@@ -1,0 +1,15 @@
+.purchasesCard {
+	background-color: #303030;
+	padding: 10px 15px;
+	border-radius: 10px;
+	display: flex;
+}
+
+.purchasesCard p {
+	flex: 1;
+}
+
+.goldText {
+	font-size: 20px;
+	color: #ffc23e;
+}

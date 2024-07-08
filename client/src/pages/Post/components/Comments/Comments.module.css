@@ -1,0 +1,60 @@
+.wrapper {
+	background-color: #303030;
+	padding: 30px;
+	border-radius: 44px;
+}
+
+.formSendMessage {
+	gap: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.formSendMessage img {
+	cursor: pointer;
+}
+
+.enterComment {
+	resize: none;
+	overflow: hidden;
+	outline: none;
+	width: 100%;
+	min-height: 100px;
+	background-color: #303030;
+	border: none;
+}
+
+.signal {
+	text-align: center;
+}
+
+.comments {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.comment {
+	background-color: #212121;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.userInfo {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+}
+
+.commentInfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.userAvatar {
+	width: 54px;
+}

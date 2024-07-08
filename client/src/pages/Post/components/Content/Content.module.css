@@ -1,0 +1,15 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.banner {
+	border-radius: 44px;
+	filter: brightness(30%);
+	height: 520px;
+}
+
+.content {
+	white-space: break-spaces;
+}

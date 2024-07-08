@@ -1,0 +1,29 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+
+.firstSectrion,
+.secondSection {
+	display: flex;
+	justify-content: space-between;
+}
+
+.firstSectrionInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 600px;
+}
+
+.secondSection {
+	align-items: center;
+}
+
+.secondSectionItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
