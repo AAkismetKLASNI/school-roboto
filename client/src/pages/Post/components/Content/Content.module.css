@@ -7,7 +7,9 @@
 .banner {
 	border-radius: 44px;
 	filter: brightness(30%);
-	height: 520px;
+	height: 350px;
+	object-position: center;
+	object-fit: cover;
 }
 
 .content {
